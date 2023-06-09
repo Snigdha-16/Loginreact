@@ -12,7 +12,37 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body{
+  background-color: rgb(62, 48, 58);
+}
 
+.container{
+  margin-top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: rgb(191, 191, 207);
+  border: 2px solid rgb(251, 202, 228);
+  border-radius: 12px;
+  padding: 5px;
+  box-shadow: 10px 10px;
+}
+.con{
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 10%; 
+  /* border: 1px solid black; */
+  background: rgb(191, 191, 207);
+  box-shadow: 10px 10px;
+  border-radius: 12px;
+  border: 2px solid rgb(251, 202, 228);
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +52,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+}
+.submit:hover {
+  background-color:#96a0bd;
+  transition: 0.7s;
 }
 
 .App-link {
